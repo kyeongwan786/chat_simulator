@@ -1,0 +1,49 @@
+### VSCode ###
+.vscode/
+
+### Flutter / Dart ###
+.dart_tool/
+.packages
+.flutter-plugins
+.flutter-plugins-dependencies
+.flutter-versions
+pubspec.lock
+build/
+ios/Pods/
+android/.gradle/
+android/local.properties
+
+# Generated files
+**/GeneratedPluginRegistrant.*
+**/flutter_export_environment.sh
+
+### Firebase ###
+firebase-debug.log
+.firebase/
+firebase.json
+firestore.indexes.json
+firestore.rules
+storage.rules
+
+### Python Functions ###
+functions/__pycache__/
+functions/.python_packages/
+functions/.venv/
+functions/venv/
+functions/*.log
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+### Secrets (절대 푸시금지) ###
+*.env
+.env
+.env.*
+firebaseKey.json
+serviceAccount.json
+functions/serviceAccount.json
+
+### OS ###
+.DS_Store
+Thumbs.db

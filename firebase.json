@@ -1,0 +1,31 @@
+{
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default"
+    }
+  ],
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "chat-ai-d2c8c",
+          "appId": "1:187466581100:android:3e69c557daa4bce3914449",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "chat-ai-d2c8c",
+          "configurations": {
+            "android": "1:187466581100:android:3e69c557daa4bce3914449",
+            "ios": "1:187466581100:ios:13d0f4c6aff55b34914449",
+            "macos": "1:187466581100:ios:13d0f4c6aff55b34914449",
+            "web": "1:187466581100:web:5c1d5748b7941937914449",
+            "windows": "1:187466581100:web:7aab31c3f2ebcfae914449"
+          }
+        }
+      }
+    }
+  }
+}
